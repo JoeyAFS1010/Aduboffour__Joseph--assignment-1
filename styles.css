@@ -1,0 +1,100 @@
+
+    /*CSS FOR CARS IN THE CITY*/
+    
+    .details_main {
+        background-image: url(assets/Canada_Houses_Skyscrapers_Lake_Toronto_Clouds_518071_1920x1080.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .description_section {
+        border-radius: 11px;
+        border: 1.7px solid rgb(165, 165, 165);
+        background-color: whitesmoke;
+        opacity: 0.8;
+        margin: auto;
+        color: black;
+        height: 10cm;
+        width: 35cm;
+        padding-bottom: 400px;
+    }
+    
+    .Description_h {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 55px;
+        letter-spacing: 4px;
+    }
+    
+    .story {
+        font-size: 20px;
+        width: 35cm;
+        height: 20cm;
+        margin-top: 20px;
+        padding-left: 50px;
+    }
+    
+    .Exdetails {
+        font-size: 20px;
+        width: 15cm;
+        height: 5cm;
+        position: absolute;
+        margin-top: 8.5cm;
+        margin-right: 200px;
+        bottom: 1;
+        right: 0;
+    }
+    
+    .cover {
+        width: 15cm;
+        height: 22cm;
+        margin-top: 6cm;
+        margin-right: 200px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    .gridcontain{
+        display: inline-grid;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        padding-left: 120px;
+        grid-template-columns: auto auto;
+    }
+    .griditem1:hover{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-size: cover;
+        opacity: 0.4;
+    }
+    .griditem2:hover{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        background-size: cover;
+        opacity: 0.5;
+    }
+    .griditem3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background-size: cover;
+    }
+    .griditem4:hover{
+        grid-row-start: 2;
+        grid-column-end: 2;
+        background-size: cover;
+        opacity: 0.7;
+    }
+    .griditem5{
+        grid-row-start: 2;
+        grid-column-end: 3;
+        background-size: cover;
+    }
+    
+
+
+    /*__________________________*/
