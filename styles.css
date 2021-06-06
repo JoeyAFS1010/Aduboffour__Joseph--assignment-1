@@ -75,7 +75,31 @@
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 3;
+        position: relative;
+
+       
     }
+
+    .gridtriangle
+    {
+        position: absolute;
+        opacity: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background: linear-gradient(to top left, rgba(255,255,255, 0.15) 50%, rgba(245,241,241, 0.705) 50%);
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+        
+    }
+
+    .griditem1:hover .gridtriangle{
+        opacity: 1;
+
+    }
+
+
     .griditem2{
         grid-column-start: 3;
         grid-column-end: 5;
